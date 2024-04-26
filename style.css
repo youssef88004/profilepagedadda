@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #f4f4f4 url('images/mainbackground.gif') no-repeat center center fixed;
+    background: url('images/mainbackground.gif' no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
