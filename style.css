@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: url('images/mainbackground.gif' no-repeat center center fixed;
+    background: #f4f4f4 url('images/mainbackground.gif') no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -49,7 +49,7 @@ body {
 }
 
 .profile-header a:hover {
-    background-color: #F3BB00; 
+    background-color: #2a9d8f; 
 }
 
 .card h2 {
