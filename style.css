@@ -1,0 +1,92 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f4 url('images/mainbackground.gif') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 660px;
+    margin: 20px auto;
+}
+
+.card {
+    background: #e6e6e6;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px 0; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.profile-header {
+    margin-bottom: 20px;
+}
+
+.profile-header img {
+    border-radius: 50%;
+}
+
+.profile-header h1 {
+    color: #000000;
+}
+
+.profile-header p {
+    color: #000000;
+    margin: 10px 0;
+}
+
+.profile-header a {
+    display: inline-block;
+    margin-top: 5px;
+    padding: 10px 15px;
+    background: #000000;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; 
+}
+
+.profile-header a:hover {
+    background-color: #F3BB00; 
+}
+
+.card h2 {
+    color: #333;
+    margin-bottom: 10px;
+    color: #2a9d8f;
+}
+
+.card p {
+    color: #212121;
+}
+
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+    }
+    
+    .list-inline li {
+    display: inline;
+    }
+    
+    .list-inline i {
+        font-size: 30px;
+        color: black;
+        margin: 0 5px;
+    }  
+    
+    .list-inline li i:hover {
+    opacity: 0.5;
+    }
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        width: 500; 
+    }
+    
+}
